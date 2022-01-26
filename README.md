@@ -64,6 +64,7 @@
 - add search functionality
 - cleanup and comment
 - fix empty search
+- shorten article prev
 
 ### Server
 
