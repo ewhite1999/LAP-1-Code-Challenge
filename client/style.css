@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: clamp(4rem, 10vw, 9rem);
+  background-image: linear-gradient(45deg, #e96443, #904e95);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 0.25em;
+  padding: 0.75rem;
+  font-family: sans-serif;
+}
+form {
+  width: 50%;
+  min-width: 350px;
+  max-width: 600px;
+}
+.form_child {
+  padding: 1em 2em;
+  font-family: inherit;
+}
+.search_btns {
+  display: flex;
+  justify-content: space-around;
+}
+#search_val {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 20px;
+  border: 2px solid lightgray;
+  padding-left: 2.25rem;
+}
+
+.btn {
+  width: 45%;
+  max-width: 175px;
+  border: none;
+  border-radius: 10px;
+}
+
+.mag_logo {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  position: relative;
+  bottom: 43px;
+  left: 12px;
+  opacity: 0.6;
+}
+
+/* Formatting results */
+.results_cont {
+  margin: 2em 10%;
+}
+
+.article_body {
+  max-width: 65ch;
+  margin-top: 0;
+}
+.article_title {
+  margin-bottom: 0;
+}
+.article_link {
+  color: #904e95;
+  text-decoration: none;
+}
+.article_link:visited {
+  color: #e96443;
+}
